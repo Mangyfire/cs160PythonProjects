@@ -1,0 +1,25 @@
+p {
+	margin:0px 0px 0px 0px;
+}
+
+.textFieldHolder{
+	margin-right:100px;
+}
+
+
+#userinput{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+
+#firstParagraph{
+	border:green solid 3px;
+	border-radius: 20px;
+	height:95%;
+	overflow:scroll;
+	padding:5px;
+	font-size:  20pt;
+}
+
+
