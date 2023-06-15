@@ -6,6 +6,16 @@ p {
 	margin-right:100px;
 }
 
+#plyInput{
+	float:left;
+	width:100%;
+	-webkit-box-sizing: border-box; /* Safari/Crome, other webkit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+	-ms-box-sizing: border-box; /* Old IE */
+	-khtml-box-sizing: border-box; /* konqueror */
+}
+
 
 #userinput{
 	position:absolute;
@@ -15,9 +25,9 @@ p {
 
 #firstParagraph{
 	border:green solid 3px;
-	border-radius: 20px;
+	border-radius: 10px;
 	height:95%;
-	overflow:scroll;
+	overflow-y:scroll;
 	padding:5px;
 	font-size:  20pt;
 }

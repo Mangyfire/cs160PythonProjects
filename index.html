@@ -9,7 +9,7 @@
 			rock smashes scissors, paper covers rock, scissors cuts paper.</p>
 	</div>
 	<div id="userInput">
-			<div class="textFeildHolder">
+			<div class="textFieldHolder">
 				<input type="text" id="plyInput" name="plyChoice" onkeydown="submitNow(this)" placeholder="select rock, paper, or scissors."/>
 			</div>
 			<input type="button" id="btnSubmit" name="btnSubmit" value="SUbMit"/>
@@ -68,5 +68,7 @@
 			compChoice = "scissors"
 		}
 		document.getElementById("firstParagraph").innerHTML = document.getElementById("firstParagraph").innerHTML+ "<p>" + thinker(plyChoice,compChoice);
+		war scrollDiv = document.getElementById('firstParagraph');
+		scrollDiv.scrollTop = scrollDiv.scrolllHeight//scroll to bottom
 	}
 </script>
